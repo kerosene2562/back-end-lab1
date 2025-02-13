@@ -90,7 +90,7 @@
 
     function createBlocks($n)
     {
-        echo "<div style='width:100%; height:85vh; position:relative; background-color:black;'>";
+        echo "<div style='width:100%; height:95vh; position:relative; background-color:black;'>";
         for($i = 0; $i < $n; $i++)
         {
             createBlock(mt_rand(0,80), mt_rand(0,90), mt_rand(1,100));
